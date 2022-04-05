@@ -140,7 +140,7 @@ class _MyHomePageState extends State<MyHomePage> {
 
                             suffixIcon: IconButton(
                               onPressed: clearTexttow,
-                              icon: Icon(Icons.clear),
+                              icon:const Icon(Icons.clear),
                             ),
                             labelText: 'ennter input ....',
                             border:const OutlineInputBorder(
@@ -180,7 +180,7 @@ class _MyHomePageState extends State<MyHomePage> {
                       fontWeight: FontWeight.bold, fontSize: 20),
                 ),
                 Container(
-                  margin: EdgeInsets.only(top: 20),
+                  margin:const EdgeInsets.only(top: 20),
                   child: Row(
                     mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                     children: [
