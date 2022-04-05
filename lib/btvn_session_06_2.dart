@@ -38,6 +38,7 @@ class _MyAppState extends State<MyApp> {
         body: SingleChildScrollView(
           child: SafeArea(
               child: Container(
+                padding:EdgeInsets.only(bottom: 180),
                 decoration:const BoxDecoration(
                   gradient: LinearGradient(
                     begin: Alignment.topRight,
